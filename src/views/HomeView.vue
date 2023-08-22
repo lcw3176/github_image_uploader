@@ -5,11 +5,11 @@
       <div class="v-container v-locale--is-ltr">
         <div class="v-row align-center justify-center">
           <div class="v-col v-col-auto">
-            <div class="v-responsive v-img mx-auto" aria-label="Vuetify Logo" role="img"
+            <div class="v-responsive v-img mx-auto" role="img"
               style="height: 300px; max-width: 100%; width: 300px;">
               <div class="v-responsive__sizer" style="padding-bottom: 99.851%;"></div><img
                 class="v-img__img v-img__img--contain"
-                src="https://github.com/lcw3176/url_printer_front/assets/59993347/7f049c09-fcdf-4c48-8944-6d5e27e610f5" alt="Vuetify Logo" style="">
+                src="https://github.com/lcw3176/url_printer_front/assets/59993347/7f049c09-fcdf-4c48-8944-6d5e27e610f5" style="">
             </div>
           </div>
           <div class="v-col v-col-auto text-center text-lg-start">
@@ -23,7 +23,7 @@
                   class="v-btn v-btn--flat v-theme--dark v-btn--density-default v-btn--size-x-large v-btn--variant-elevated text-none"
                   href="https://github.com/lcw3176/url_printer_front" rel="noopener" target="_blank"
                   style="background-color: rgb(33, 33, 33); color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255); min-width: 215px;"><span
-                    class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content"
+                    class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__content"
                     data-no-activator=""><i class="v-icon notranslate v-theme--dark v-icon--size-default v-icon--start"
                       aria-hidden="true"><svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                         role="img" aria-hidden="true">
@@ -41,101 +41,101 @@
           aria-hidden="true" style="user-select: none;"><span class="text-primary"></span></a>Recommended for</h2>
 
       <div class="v-responsive text-xs-center pb-4">
-        <div class="v-responsive__sizer"></div><!---->
+        <div class="v-responsive__sizer"></div>
         <div class="v-responsive__content">
           <div class="v-container v-locale--is-ltr" grid-list-xl="">
             <div class="v-row justify-center">
               <div class="v-col v-col-auto d-flex flex-shrink-1">
                 <div
                   class="v-card v-card--flat v-theme--light v-card--border v-card--density-default v-card--variant-elevated text-xs-center mx-auto"
-                  style="max-width: 350px;"><!---->
+                  style="max-width: 350px;">
                   <div class="v-card__loader">
                     <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true"
                       aria-valuemin="0" aria-valuemax="100"
                       style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);">
-                      <!---->
+                      
                       <div class="v-progress-linear__background" style="width: 100%;"></div>
                       <div class="v-progress-linear__indeterminate">
                         <div class="v-progress-linear__indeterminate long"></div>
                         <div class="v-progress-linear__indeterminate short"></div>
-                      </div><!---->
+                      </div>
                     </div>
-                  </div><!----><!---->
+                  </div>
                   <div class="v-responsive v-img v-img--booting" aria-label="Vibrant Community" role="img"
                     style="width: 100%;">
                     <div class="v-responsive__sizer" style="padding-bottom: 38.4615%;"></div><img
                       class="v-img__img v-img__img--cover"
                       src="https://github.com/lcw3176/url_printer_front/assets/59993347/91d80de9-b0b0-4332-9ae6-0bc8ddfc65cb" alt="Vibrant Community"
-                      style=""><!----><!----><!----><!----><!---->
+                      style="">
                   </div>
                   <div class="v-card-text">
                     <h3 class="text-subheading-1 font-weight-bold mb-2">Blog</h3>
                     <p class="mb-2">
                       It can be useful when registering images on the GitHub blog.
                     </p>
-                  </div><!----><!----><span class="v-card__underlay"></span>
+                  </div><span class="v-card__underlay"></span>
                 </div>
               </div>
               <div class="v-col v-col-auto d-flex flex-shrink-1">
                 <div
                   class="v-card v-card--flat v-theme--light v-card--border v-card--density-default v-card--variant-elevated text-xs-center mx-auto"
-                  style="max-width: 350px;"><!---->
+                  style="max-width: 350px;">
                   <div class="v-card__loader">
                     <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true"
                       aria-valuemin="0" aria-valuemax="100"
                       style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);">
-                      <!---->
+                      
                       <div class="v-progress-linear__background" style="width: 100%;"></div>
                       <div class="v-progress-linear__indeterminate">
                         <div class="v-progress-linear__indeterminate long"></div>
                         <div class="v-progress-linear__indeterminate short"></div>
-                      </div><!---->
+                      </div>
                     </div>
-                  </div><!----><!---->
+                  </div>
                   <div class="v-responsive v-img v-img--booting" aria-label="Semantic Vue Components" role="img"
                     style="width: 100%;">
                     <div class="v-responsive__sizer" style="padding-bottom: 38.4615%;"></div><img
                       class="v-img__img v-img__img--cover"
                       src="https://github.com/lcw3176/url_printer_front/assets/59993347/39bc8d63-948f-4668-93cb-bc27b9f0d4a5" alt="Semantic Vue Components"
-                      style=""><!----><!----><!----><!----><!---->
+                      style="">
                   </div>
                   <div class="v-card-text">
                     <h3 class="text-subheading-1 font-weight-bold mb-2">Readme</h3>
                     <p class="mb-2">
                       You can quickly register various images in the size you want on Github Readme.
                     </p>
-                  </div><!----><!----><span class="v-card__underlay"></span>
+                  </div><span class="v-card__underlay"></span>
                 </div>
               </div>
               <div class="v-col v-col-auto d-flex flex-shrink-1">
                 <div
                   class="v-card v-card--flat v-theme--light v-card--border v-card--density-default v-card--variant-elevated text-xs-center mx-auto"
-                  style="max-width: 350px;"><!---->
+                  style="max-width: 350px;">
                   <div class="v-card__loader">
                     <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true"
                       aria-valuemin="0" aria-valuemax="100"
                       style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);">
-                      <!---->
+                      
                       <div class="v-progress-linear__background" style="width: 100%;"></div>
                       <div class="v-progress-linear__indeterminate">
                         <div class="v-progress-linear__indeterminate long"></div>
                         <div class="v-progress-linear__indeterminate short"></div>
-                      </div><!---->
+                      </div>
                     </div>
-                  </div><!----><!---->
+                  </div>
                   <div class="v-responsive v-img v-img--booting" aria-label="Ready-Made Project Scaffolding" role="img"
                     style="width: 100%;">
                     <div class="v-responsive__sizer" style="padding-bottom: 38.4615%;"></div><img
                       class="v-img__img v-img__img--cover"
                       src="https://github.com/lcw3176/url_printer_front/assets/59993347/79989d25-13b2-48cf-81c3-e35bf676a8d0"
-                      alt="Ready-Made Project Scaffolding" style=""><!----><!----><!----><!----><!---->
+                      alt="Ready-Made Project Scaffolding" style="">
                   </div>
                   <div class="v-card-text">
                     <h3 class="text-subheading-1 font-weight-bold mb-2">Uploaded image url</h3>
                     <p class="mb-2">
                       It can be useful if you need to resize the image at the same time as uploading it.
                     </p>
-                  </div><!----><!----><span class="v-card__underlay"></span>
+                  </div><span class="v-card__underlay"></span>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@
             </div>
             <div class="v-col v-col-12">
               <div class="v-responsive mx-auto" style="max-width: 70%; width: 150px;">
-                <div class="v-responsive__sizer"></div><!---->
+                <div class="v-responsive__sizer"></div>
                 <div class="v-responsive__content">
                   <hr class="v-divider v-theme--dark" aria-orientation="horizontal" role="separator">
                 </div>
