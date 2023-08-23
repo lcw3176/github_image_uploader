@@ -4,13 +4,32 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import(/* webpackChunkName: "about" */ '../views/HomeView.vue')
+    component: () => import(/* webpackChunkName: "home" */ '../views/HomeView.vue')
   },
 
   {
-    path: '/convert',
+    path: '/auth/convert',
     name: 'convert',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ConvertView.vue')
+    component: () => import(/* webpackChunkName: "convert" */ '../views/ConvertView.vue')
+  },
+
+  {
+    path: '/auth/user',
+    name: 'user',
+    component: () => import(/* webpackChunkName: "user" */ '../views/UserView.vue')
+  },
+
+  {
+    path: '/auth/done',
+    name: 'auth-done',
+    component: () => import(/* webpackChunkName: "auth-done" */ '../views/LoginDoneView.vue')
+  },
+
+
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import(/* webpackChunkName: "login" */ '../views/LoginView.vue')
   },
 ]
 

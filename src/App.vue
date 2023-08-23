@@ -1,7 +1,7 @@
 <template>
   <v-layout>
 
-    <v-app-bar elevation="1" v-if="display.mdAndUp">
+    <v-app-bar elevation="3" v-if="display.mdAndUp">
 
       <v-row>
         <v-col cols="2">
@@ -100,8 +100,8 @@ export default {
       sidebar: false,
       desktop: [
         // { title: "사용법", path: "/report" },
-        { title: "Convert", path: "/convert" },
-        { title: "Log in", path: "/setting" },
+        { title: "Convert", path: "/auth/convert" },
+        { title: "Log in", path: "/login" },
       ],
 
 
@@ -109,7 +109,7 @@ export default {
         { title: "Home", path: "/", icon: "mdi-home-outline" },
         { title: "Convert", path: "/convert" , icon: "mdi-cog-outline"},
         // { title: "사용법", path: "/report", icon: "mdi-bullhorn-outline" },
-        { title: "Log in", path: "/community", icon: "mdi-login" },
+        { title: "Log in", path: "/login", icon: "mdi-login" },
 
       ],
       display
