@@ -1,25 +1,40 @@
 {
   "name": "github_image_uploader",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "deploy":"electron-builder --windows nsis:ia32"
   },
-  "dependencies": {
-    "@mdi/font": "^7.2.96",
-    "axios": "^1.4.0",
-    "core-js": "^3.8.3",
-    "pinia": "^2.1.6",
-    "register-service-worker": "^1.7.2",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.3",
-    "vuetify": "^3.3.13"
+
+   
+  "build": {
+    "productName": "github_image_uploader",
+    "appId": "com.coldrain.uploader",
+    "asar": true,
+    "win": {
+      "target": [
+        "zip",
+        "nsis"
+      ],
+      "icon": "./resources/installer/Icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "directories": {
+      "buildResources": "./resources/installer/",
+      "output": "./exeResult/",
+      "app": "."
+    }
   },
+
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-pwa": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "electron": "^26.2.2",
+    "electron-builder": "^24.6.4"
   }
 }

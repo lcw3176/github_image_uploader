@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Github Image Uploader</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body style="background: white;">
+    <div class="container is-fluid mt-5">
+        <div class="box">
+
+            <label class="label" id="image_container">
+                <button class="button is-success">Click or Drop images here</button>
+                <input id="image_input" class="file-input" type="file" name="resume" multiple>
+
+            </label>
+        </div>
+    </div>
+
+    <div class="container is-fluid">
+        <aside class="menu mt-5">
+            <p class="menu-label">
+                File Names
+            </p>
+
+            <ul class="menu-list" id="file_names">
+            </ul>
+        </aside>
+    </div>
+
+    <script>
+        window.api.request("넘긴값", {
+            value: 1234, key: 'key', calback: (result) => {
+                console.log('요청 후 결과 값 : ', result);
+            }
+        });
+
+        let fileContainer = document.getElementById("file_names");
+        let image = document.getElementById("image_input");
+
+        image.addEventListener('input', (event) => {
+            const target = event.target;
+            readFiles(target);
+
+        });
+
+        let imageContainer = document.getElementById("image_container");
+
+        imageContainer.addEventListener('drop', (event) => {
+            event.preventDefault();
+            const target = event.dataTransfer;
+
+            readFiles(target);
+        });
+
+
+        imageContainer.addEventListener('dragover', (event) => {
+            event.preventDefault();
+        });
+
+
+        function readFiles(target) {
+            const files = target.files;
+
+            for (file of files) {
+                let path = file.path;
+
+                let li = document.createElement("li");
+                let columns = document.createElement("div");
+
+                columns.className = "is-flex is-vcentered columns";
+                a.innerText = path;
+
+                let button = document.createElement("button");
+                button.className = "button is-danger is-pulled-right";
+
+                button.innerText = "remove";
+
+                a.appendChild(button);
+                li.appendChild(a);
+                fileContainer.appendChild(li);
+            }
+
+        }
+
+
+    </script>
+</body>
+
+<style>
+    .is-vcentered {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+
+</style>
+
+</html>
